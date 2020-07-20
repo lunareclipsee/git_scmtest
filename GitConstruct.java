@@ -19,10 +19,10 @@ public class GitConstruct {
 		
 		Calc calc = new Calc();
 		int firResult = calc.sumOf(firNum);
-		int secResult2 = calc.sumOf(secNum);
+		int secResult = calc.sumOf(secNum);
 		
 		calc.resultPrint(firNum, firResult);
-		calc.resultPrint(secNum, secResult2);
+		calc.resultPrint(secNum, secResult);
 	
 	}
 }
